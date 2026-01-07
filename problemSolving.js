@@ -9,7 +9,7 @@ const reverse = str.split("").reverse().join("");
 let input = "programming";
 let count = 0;
 for (let i = 0; i < input.length; i++) {
-//   console.log(input[i]);
+  //   console.log(input[i]);
   if (
     input[i] == "a" ||
     input[i] == "e" ||
@@ -20,4 +20,16 @@ for (let i = 0; i < input.length; i++) {
     count = count + 1;
   }
 }
-console.log(count);
+// console.log(count);
+
+// problem 3
+// ----------------------------------
+
+const latter = "madam";
+const result = latter.split("").reverse().join("");
+if (latter === result) {
+  console.log("true");
+} else {
+  console.log("false");
+}
+// console.log(result);
