@@ -90,3 +90,40 @@
 
 // problem 8
 // ----------------------------------
+{
+  let str = "hello world";
+  const words = str.split(" ");
+  // console.log(words);
+  for (let i = 0; i < words.length; i++) {
+    words[i] = words[i][0].toUpperCase() + words[i].slice(1);
+  }
+  let result = words.join(" ");
+  //   console.log(result);
+}
+
+// problem 9
+// ----------------------------------
+{
+  const num = 3;
+  let result = 1;
+  for (let i = 1; i <= num; i++) {
+    result = result * i;
+  }
+  // console.log(result);
+}
+
+// problem 10
+// ----------------------------------
+{
+  for (let i = 1; i < 20 + 1; i++) {
+    if (i % 3 === 0 && i % 5 === 0) {
+      console.log("PingPong ======", i);
+    } else if (i % 3 === 0) {
+      console.log("Ping -------", i);
+    } else if (i % 5 === 0) {
+      console.log("Pong ++++++", i);
+    } else {
+      console.log(i);
+    }
+  }
+}
