@@ -117,13 +117,13 @@
 {
   for (let i = 1; i < 20 + 1; i++) {
     if (i % 3 === 0 && i % 5 === 0) {
-      console.log("PingPong ======", i);
+      console.log("PingPong");
     } else if (i % 3 === 0) {
-      console.log("Ping -------", i);
+      console.log("Ping");
     } else if (i % 5 === 0) {
-      console.log("Pong ++++++", i);
+      console.log("Pong");
     } else {
-      console.log(i);
+      // console.log(i);
     }
   }
 }
