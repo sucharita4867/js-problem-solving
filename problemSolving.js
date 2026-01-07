@@ -52,7 +52,7 @@
   //   console.log("max no: ", num);
 }
 
-// problem 4
+// problem 5
 // ----------------------------------
 {
   let input = [1, 2, 2, 3, 6, 5, 5, 4, 4];
@@ -63,5 +63,30 @@
       number.push(input[i]);
     }
   }
-  console.log(number);
+  //   console.log(number);
 }
+
+// problem 6
+// ----------------------------------
+{
+  const inputs = [1, 2, 3, 4];
+  let sum = 0;
+  for (let i = 0; i < inputs.length; i++) {
+    sum = sum + inputs[i];
+  }
+  //   console.log("sum no", sum);
+}
+
+// problem 7
+// ----------------------------------
+{
+  const Input = [1, 2, 3, 4, 5, 6, 34, 56];
+  for (let i = 0; i < Input.length; i++) {
+    if (Input[i] % 2 === 0) {
+      //     console.log("Even no:", Input[i]);
+    }
+  }
+}
+
+// problem 8
+// ----------------------------------
