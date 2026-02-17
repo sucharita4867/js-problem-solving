@@ -6,7 +6,7 @@ for (let i = 0; i < arr.length; i++) {
     duplicate.push(arr[i]);
   }
 }
-console.log(duplicate);
+console.log(duplicate)
 // const duplicate = [1, 2, 2, 3, 4, 4, 5];
 // let numbers = [];
 // for (let i = 0; i < duplicate.length; i++) {
