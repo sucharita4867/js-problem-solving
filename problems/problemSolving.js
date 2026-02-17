@@ -1,8 +1,8 @@
 // problem 1
 // ----------------------------------
 {
-  let str = "hello";
-  const reverse = str.split("").reverse().join("");
+  // let str = "hello";
+  // const reverse = str.split("").reverse().join("");
   // console.log(reverse);
 }
 
@@ -28,14 +28,14 @@
 // problem 3
 // ----------------------------------
 {
-  const latter = "madam";
-  const result = latter.split("").reverse().join("");
-  if (latter === result) {
-    //   console.log("true");
-  } else {
-    //   console.log("false");
-  }
-  // console.log(result);
+  // const latter = "madam";
+  // const result = latter.split("").reverse().join("");
+  // if (latter === result) {
+  //   //   console.log("true");
+  // } else {
+  //   //   console.log("false");
+  // }
+  // // console.log(result);
 }
 
 // problem 4
@@ -54,14 +54,14 @@
 // problem 5
 // ----------------------------------
 {
-  let input = [1, 2, 2, 3, 6, 5, 5, 4, 4];
-  const number = [];
-  for (let i = 0; i < input.length; i++) {
-    //   console.log(input[i]);
-    if (!number.includes(input[i])) {
-      number.push(input[i]);
-    }
-  }
+  // let input = [1, 2, 2, 3, 6, 5, 5, 4, 4];
+  // const number = [];
+  // for (let i = 0; i < input.length; i++) {
+  //   //   console.log(input[i]);
+  //   if (!number.includes(input[i])) {
+  //     number.push(input[i]);
+  //   }
+  // }
   //   console.log(number);
 }
 
