@@ -9,20 +9,20 @@
 // problem 2
 // ----------------------------------
 {
-  let input = "programming";
-  let count = 0;
-  for (let i = 0; i < input.length; i++) {
-    if (
-      input[i] == "a" ||
-      input[i] == "e" ||
-      input[i] == "i" ||
-      input[i] == "o" ||
-      input[i] == "u"
-    ) {
-      count = count + 1;
-    }
-  }
-  console.log(count);
+  // let input = "programming";
+  // let count = 0;
+  // for (let i = 0; i < input.length; i++) {
+  //   if (
+  //     input[i] == "a" ||
+  //     input[i] == "e" ||
+  //     input[i] == "i" ||
+  //     input[i] == "o" ||
+  //     input[i] == "u"
+  //   ) {
+  //     count = count + 1;
+  //   }
+  // }
+  // console.log(count);
 }
 
 // problem 3
@@ -41,13 +41,13 @@
 // problem 4
 // ----------------------------------
 {
-  const numbers = [5, 1, 9, 3, 29];
-  let num = numbers[0];
-  for (let i = 1; i < numbers.length; i++) {
-    if (numbers[i] > num) {
-      num = numbers[i];
-    }
-  }
+  // const numbers = [5, 1, 9, 3, 29];
+  // let num = numbers[0];
+  // for (let i = 1; i < numbers.length; i++) {
+  //   if (numbers[i] > num) {
+  //     num = numbers[i];
+  //   }
+  // }
   //   console.log("max no: ", num);
 }
 
