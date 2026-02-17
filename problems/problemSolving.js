@@ -68,11 +68,11 @@
 // problem 6
 // ----------------------------------
 {
-  const inputs = [1, 2, 3, 4];
-  let sum = 0;
-  for (let i = 0; i < inputs.length; i++) {
-    sum = sum + inputs[i];
-  }
+  // const inputs = [1, 2, 3, 4];
+  // let sum = 0;
+  // for (let i = 0; i < inputs.length; i++) {
+  //   sum = sum + inputs[i];
+  // }
   //   console.log("sum no", sum);
 }
 
