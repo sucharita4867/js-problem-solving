@@ -41,14 +41,14 @@
 // problem 4
 // ----------------------------------
 {
-  // const numbers = [5, 1, 9, 3, 29];
-  // let num = numbers[0];
-  // for (let i = 1; i < numbers.length; i++) {
-  //   if (numbers[i] > num) {
-  //     num = numbers[i];
-  //   }
-  // }
-  //   console.log("max no: ", num);
+  const numbers = [5, 1, 9, 3, 29];
+  let num = numbers[0];
+  for (let i = 1; i < numbers.length; i++) {
+    if (numbers[i] > num) {
+      num = numbers[i];
+    }
+  }
+  console.log("max no: ", num);
 }
 
 // problem 5
