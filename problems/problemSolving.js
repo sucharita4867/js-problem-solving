@@ -28,14 +28,14 @@
 // problem 3
 // ----------------------------------
 {
-  // const latter = "madam";
-  // const result = latter.split("").reverse().join("");
-  // if (latter === result) {
-  //   //   console.log("true");
-  // } else {
-  //   //   console.log("false");
-  // }
-  // // console.log(result);
+  const latter = "madam";
+  const result = latter.split("").reverse().join("");
+  if (latter === result) {
+    //   console.log("true");
+  } else {
+    //   console.log("false");
+  }
+  // console.log(result);
 }
 
 // problem 4
