@@ -54,15 +54,15 @@
 // problem 5
 // ----------------------------------
 {
-  // let input = [1, 2, 2, 3, 6, 5, 5, 4, 4];
-  // const number = [];
-  // for (let i = 0; i < input.length; i++) {
-  //   //   console.log(input[i]);
-  //   if (!number.includes(input[i])) {
-  //     number.push(input[i]);
-  //   }
-  // }
-  //   console.log(number);
+  let input = [1, 2, 2, 3, 6, 5, 5, 4, 4];
+  const number = [];
+  for (let i = 0; i < input.length; i++) {
+    //   console.log(input[i]);
+    if (!number.includes(input[i])) {
+      number.push(input[i]);
+    }
+  }
+  console.log(number);
 }
 
 // problem 6
